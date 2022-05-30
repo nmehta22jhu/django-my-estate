@@ -1,0 +1,12 @@
+    .icon {
+    margin-left: 10px ;
+    margin-right: -10px ;
+}
+
+.color-nav {
+    background-color: rgba(53,106,130,1);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}

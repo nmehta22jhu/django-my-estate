@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    font-size: 75px;
+}
+
+.divider {
+    width:100px;
+    height:auto;
+    display:inline-block;
+}
+
+.flex-container {
+    display: flex;
+    flexDirection: 'row';
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 50px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
